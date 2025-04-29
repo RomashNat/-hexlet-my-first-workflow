@@ -12,9 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Make
-      run: sudo apt-get install make
+    - name: Install make
+      run: sudo apt-get update && sudo apt-get install -y make
 
     - name: Run say-hello
       run: make say-hello
-
