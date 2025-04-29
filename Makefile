@@ -1,5 +1,5 @@
-HELLO?=World
-say:
-	echo "Hello, $(HELLO)!"
+say-hello:
+	@echo "Hello, World!"
+
 
    
